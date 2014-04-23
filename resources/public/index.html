@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Defarsi</title>
+  </head>
+  <body>
+    <form id="eval-form">
+      <p>
+	<label for="eval-expr">
+	  Enter Persian word:
+	</label>
+      </p>
+      <p><input id="eval-expr" name="eval-expr" type="text" size="70" /></p>
+      <p><input id="eval-button" type="button" value="Eval" /></p>
+    </form>
+    <p>Turkish:</p>
+    <pre id="eval-result">
+    </pre>
+    <script type="text/javascript" src="defarsi.js"></script>
+    <script>farsi_trans.core.main()</script>
+  </body>
+</html>
