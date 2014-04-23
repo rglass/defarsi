@@ -10,5 +10,5 @@
   :plugins [[lein-cljsbuild "0.3.4"]]
   :cljsbuild {:builds[{:source-paths ["src/cljs"],
                        :compiler {:output-to "resources/public/defarsi.js"
-                                  :optimizations :whitespace}}]}
+                                  :optimizations :advanced}}]}
 )
